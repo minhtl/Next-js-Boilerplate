@@ -26,7 +26,6 @@ const MessageSend = ({ onSend }: Props) => {
       <button
         type="submit"
         className="rounded bg-blue-500 px-5 py-1 font-bold text-white hover:bg-blue-600 focus:outline-none focus:ring focus:ring-blue-300/50"
-        onClick={sendMessage}
       >
         Send
       </button>
